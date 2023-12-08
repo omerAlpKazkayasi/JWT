@@ -1,3 +1,4 @@
+using CoreLayer;
 using SharedLibrary.Config;
 
 namespace JWTAPI
@@ -10,6 +11,7 @@ namespace JWTAPI
 
 			// Add services to the container.
 			builder.Services.Configure<CustomTokenOptions>(builder.Configuration.GetSection("TokenOptions"));
+			builder.Services.Configure<Client>(builder.Configuration.GetSection("Client"));
 
 
 

@@ -1,6 +1,7 @@
 ﻿using CoreLayer.Repositorys;
 using CoreLayer.Services;
 using CoreLayer.UnitOfWork;
+using Microsoft.EntityFrameworkCore;
 using SharedLibrary.DTOs;
 using System;
 using System.Collections.Generic;
